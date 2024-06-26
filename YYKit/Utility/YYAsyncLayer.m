@@ -202,7 +202,7 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
             size.width = 1.0;
         }
         if (size.height == 0) {
-            size.width = 1.0;
+            size.height = 1.0;
         }
         UIGraphicsBeginImageContextWithOptions(size, self.opaque, self.contentsScale);
         CGContextRef context = UIGraphicsGetCurrentContext();
